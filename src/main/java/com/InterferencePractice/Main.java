@@ -5,6 +5,9 @@ public class Main {
         VehicleInterface.Vehicle car = new VehicleInterface.CarImpl();
         car.startup();
         car.stopit();
+        VehicleInterface.Vehicle bike = new VehicleInterface.Bike();
+        bike.startup();
+        bike.stopit();
 
 
     }
