@@ -6,12 +6,12 @@ public class Vehicle {
     String seats;
     String fuelType;
 
-    public void  enterVehicle(){
-    System.out.println("entering car");
+    public void enterVehicle() {
+        System.out.println("entering car");
     }
 
-    public void exitVehicle(){
-    System.out.println("exiting car");
+    public void exitVehicle() {
+        System.out.println("exiting car");
     }
 
     public String getBrand() {
@@ -45,10 +45,5 @@ public class Vehicle {
     public void setFuelType(String fuelType) {
         this.fuelType = fuelType;
     }
-
-public class Car extends Vehicle {
-
 }
-
-    }
 
