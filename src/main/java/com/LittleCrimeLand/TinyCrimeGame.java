@@ -49,6 +49,15 @@ public class TinyCrimeGame {
             System.out.println(getName() + " weaves through traffic.");
         }
     }
+    static class Helicopter extends Vehicle {
+        public Helicopter(String name) {
+            super(name);
+        }
+        @Override
+        public void drive() {
+            System.out.println(getName() + " safely drives the helicopter.");
+        }
+    }
 
     // ABSTRACT CLASS
     static abstract class Character implements Damageable {
@@ -175,5 +184,6 @@ public class TinyCrimeGame {
         System.out.println("\nPolice catch up!");
 
         player.takeDamage(25);
+
     }
 }
